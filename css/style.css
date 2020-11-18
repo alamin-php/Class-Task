@@ -1,0 +1,155 @@
+/*==============================  
+BASIC SETUP
+================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+P {
+    color: #555;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+
+/*==============================  
+RE-USEABLE CSS STYLE
+================================*/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/*=======================
+HEADER CSS STYLES  
+=========================*/
+
+.main-navbar{
+    background: ;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.logo-area img{
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.menu-area{
+    width: 70%;
+    float: left;
+}
+
+.menu-area ul{
+    text-align: right;
+}
+
+.menu-area ul li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.menu-area ul li a{
+    color: #444444;
+    display: block;
+}
+
+.menu-area ul li a:hover{
+    color: #2ecc71;
+}
+
+
+/* contact css  */
+.contact-area{
+    overflow: hidden;
+    width: 100%;
+    margin: 50px 0;
+    background: #dddddd;
+}
+.contact-text{
+    width: 50%;
+    float: left;
+    padding: 50px 0;
+}
+
+.contact-text h2{
+    margin: 10px 0;
+}
+.contact-text p{
+    /* margin: 10px 0; */
+}
+.contact-text .address{
+    margin: 10px 0;
+}
+
+.contact-form{
+    width: 50%;
+    float: right;
+    margin: 50px 0;
+}
+
+.contact-form input{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 5px;
+    border: 1px solid #dddddd;
+    margin: 5px 0;
+}
+.contact-form textarea{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 5px;
+    border: 1px solid #dddddd;
+    margin: 5px 0;
+}
+
+.contact-form input[type="submit"]{
+    width: 30%;
+    display: inline-block;
+    padding: 20px 5px;
+    border: 0px solid #dddddd;
+    margin-top: 20px;
+    background: #16a085;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form input[type="submit"]:hover{
+    background: #1abc9c;
+}
+
+.map-area{
+    overflow: hidden;
+    width: 100%;
+}
+.google-map{
+    width: 100%;
+}
